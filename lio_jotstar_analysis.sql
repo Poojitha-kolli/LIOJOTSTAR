@@ -1,7 +1,6 @@
 -- ================================================================
 -- LIO JOTSTAR OTT PLATFORM MERGER ANALYSIS
 -- Author: Poojitha Kolli
--- Date: 2024
 -- Tool: MySQL
 -- Description: SQL analysis for strategic merger decision
 -- ================================================================
@@ -22,7 +21,7 @@ FROM liocinema_db.subscribers;
 -- Insight: LioCinema has 4x larger user base
 
 -- ----------------------------------------------------------------
--- QUESTION 2: Monthly User Growth Rate (Jan-Nov 2024)
+-- QUESTION : Monthly User Growth Rate (Jan-Nov 2024)
 -- Business Context: Track growth momentum of each platform
 -- ----------------------------------------------------------------
 WITH cte1 AS (
@@ -66,3 +65,5 @@ ORDER BY month_number;
 
 -- Insight: LioCinema peaked 27.12% Nov 2024
 -- Jotstar consistently below 2% monthly
+
+
