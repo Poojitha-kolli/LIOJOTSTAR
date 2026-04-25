@@ -5,7 +5,6 @@
 --              for the merger of LioCinema and Jotstar OTT platforms
 -- ================================================================
 
-
 -- ----------------------------------------------------------------
 -- Q1: Total Users per Platform
 -- Business Context: Compare total user base size before merger
